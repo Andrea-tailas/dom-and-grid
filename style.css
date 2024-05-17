@@ -32,23 +32,23 @@ padding: 1rem 1rem;
 }
 #add-todo{
     justify-content: space-around;
-    margin-left: 155px;
-    margin-right: 155px;
+    margin-left: 300px;
+    margin-right: 300px;
     background-color: #ffff;
     border: 1px solid white;
     border-radius: 4px;
 }
 #todolist{
     margin-top: 0.5rem;
-    margin-left: 155px;
+    margin-left: 300px;
     border: 1px solid black;
-    border-radius: 1rem;  margin-right: 155px;
+    border-radius: 1rem;  margin-right: 300px;
     background-color: #ffff;
 }
 #bottom {
     display: flex;
     justify-content: space-between;
-    
+    padding: 0.1rem 1rem;
 }
 #input{
     border: 0;
@@ -60,4 +60,15 @@ padding: 1rem 1rem;
 }
 #todolist ul li{
     list-style: none;
+}
+.btm{
+    display: flex;
+    justify-content: space-between;
+
+}
+.btm p{
+    padding: 0 1rem;
+}
+h4{
+    font-weight: normal;
 }

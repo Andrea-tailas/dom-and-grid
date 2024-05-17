@@ -40,7 +40,6 @@ item.classList.add('todo')
 //append
 
 
-li.appendChild(input)
 li.appendChild(item)
 list.appendChild(li)
 

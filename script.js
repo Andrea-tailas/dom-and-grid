@@ -27,7 +27,9 @@ create.addEventListener('submit',(e)=>{
 const value=document.getElementById('tex').value
 const li=document.createElement('li')
 const item=document.createElement('span')
-
+const elem = document. createElement('input');
+elem. type = 'radio';
+elem.name = 'todo';
 // add text
 
 item.textContent=value;
@@ -36,10 +38,11 @@ item.textContent=value;
 //add class
 
 item.classList.add('todo')
+elem.classList.add('todo')
 
 //append
 
-
+li.appendChild(elem)
 li.appendChild(item)
 list.appendChild(li)
 
